@@ -1,2 +1,107 @@
-# Credit_Card_Default_Prediction
-Machine Learning project to predict credit card default risk using Logistic Regression and Random Forest with data preprocessing, EDA, and model evaluation.
+# 💳 Credit Card Default Prediction using Machine Learning
+
+## 📌 Project Overview
+
+This project aims to predict whether a credit card customer is likely to default on the next month's payment using Machine Learning techniques. The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and feature importance analysis.
+
+---
+
+## 🎯 Objective
+
+The objective of this project is to develop a machine learning model that predicts credit card default risk. This helps financial institutions identify high-risk customers and make better credit management decisions.
+
+---
+
+## 📂 Dataset
+
+* **Dataset:** UCI Credit Card Default Dataset
+* **Total Records:** 30,000
+* **Features:** 24
+* **Target Variable:** `default.payment.next.month`
+* **Problem Type:** Binary Classification
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+---
+
+## 🔍 Project Workflow
+
+1. Import Libraries
+2. Load Dataset
+3. Data Exploration
+4. Data Preprocessing
+5. Exploratory Data Analysis (EDA)
+6. Feature Engineering
+7. Train-Test Split
+8. Feature Scaling
+9. Model Training
+10. Model Evaluation
+11. Feature Importance Analysis
+12. Conclusion
+
+---
+
+## 🤖 Machine Learning Models
+
+* Logistic Regression
+* Random Forest Classifier
+
+---
+
+## 📊 Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+---
+
+## 📈 Key Findings
+
+* Repayment history (PAY_0, PAY_2, PAY_3) is one of the strongest indicators of credit card default.
+* Credit limit (LIMIT_BAL) significantly influences customer default risk.
+* Random Forest provided better predictive performance compared to Logistic Regression on this dataset.
+
+---
+
+## 📁 Repository Structure
+
+```text
+Credit-Card-Default-Prediction/
+│
+├── Credit_Card_Default_Prediction.ipynb
+├── UCI_Credit_Card.csv
+├── credit_default_model.pkl
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Hyperparameter tuning
+* XGBoost implementation
+* Streamlit web application
+* Model deployment using Flask/FastAPI
+* Cross-validation and ROC-AUC analysis
+
+---
+
+## 👨‍💻 Author
+
+**Dev**
+
+Computer Engineering Student | Machine Learning & Data Science Enthusiast
